@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
         const mail = document.getElementById("floatingInput").value;
         const pass = document.getElementById("floatingPassword").value;
 
-        if (mail.lenght > 6 && pass.lenght >= 6) {
+        if (mail.length >= 6 && pass.length >= 6) {
             try {
                 localStorage.setItem("user", JSON.stringify({ 'mail':mail, 'pass': pass }));
             } catch (e) {
