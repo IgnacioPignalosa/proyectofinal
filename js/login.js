@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById("login").addEventListener("click", () => {
         const mail = document.getElementById("floatingInput").value;
