@@ -21,6 +21,9 @@ document.addEventListener("DOMContentLoaded", function() {
             
             this.location.href = "./index.html";
             // Si el almacenamiento en el navegador se realizó con éxito, se redirige al usuario a la página "index.html".
+        } else {
+            alert("Mail o contraseña incorrecta")
+            // En el caso que no se cumpla el if aparece una alerta que indica que alguno de los campos no tiene la informacion adecuada para que el usuario intente de nuevo.
         }
     });
 });
