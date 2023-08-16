@@ -200,3 +200,8 @@ a.custom-card:hover {
 #login {
   width: 294px;
 }
+
+#salir {
+  margin-top: 7%;
+  margin-right: -50%;
+}
