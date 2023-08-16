@@ -57,4 +57,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
     location.href="login.html";
   })
+  
 });
